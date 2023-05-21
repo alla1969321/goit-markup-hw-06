@@ -1246,6 +1246,12 @@ transform: translate(0, 0);
 .modal-agreement-link:focus {
    outline: 1px solid var(--Primary-Brand-IRIS);
 }
+.modal-label-check{
+  font-size: 12px; 
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
 .modal-fake-checkbox{
   width: 16px;
   height: 16px;
