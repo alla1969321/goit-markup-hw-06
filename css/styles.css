@@ -1115,11 +1115,12 @@ transform: translate(0, 0);
    /*font-size: 12px;
    line-height: 1.5;
    letter-spacing: 0.04em;8*/
-
+   cursor: pointer;
   padding: 10px 16px; 
   border-radius: 4px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); 
-  transition: border-color var(--transition);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /*transition: border-color var(--transition);*/
  }
 
   .modal-form-comment::placeholder {
