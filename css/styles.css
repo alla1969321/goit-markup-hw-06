@@ -1151,7 +1151,9 @@ transform: translate(0, 0);
     letter-spacing: 0.04em;
     
   }
-
+  .privacy{
+    margin-bottom: 24px;
+  }
 .modal-form-comment:focus {
   outline: none;
   border-color: var(--Primary-Brand-IRIS);
