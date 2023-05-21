@@ -1289,6 +1289,7 @@ fill: #FFFFFF;
 .modal-form-check:focus + .modal-label-check .modal-fake-checkbox {
   fill: #FFFFFF;
   border: none;
+  background-color: #404bbf;
   border-color:#404bbf;}
 
 .modal-form-check:focus + .modal-fake-checkbox {
