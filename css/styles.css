@@ -1066,6 +1066,7 @@ transform: translate(0, 0);
   color: var(--Subtle-Text-Light-Slate);
   display: block;
   margin-bottom: 4px;
+
  }
 
 .modal-form-input-wrapper {
@@ -1085,6 +1086,7 @@ transform: translate(0, 0);
   color: #8e8f99;
   display: block;
   margin-bottom: 4px;
+  
  }
 
   .modal-form-field-comment {
@@ -1158,7 +1160,7 @@ transform: translate(0, 0);
 .modal-form-check-desc {
   display: flex;
   align-items: center;
-  
+   line-height: 1.17; 
   font-size: 12px;
   margin-bottom: 24px;
   letter-spacing: 0.04em;
