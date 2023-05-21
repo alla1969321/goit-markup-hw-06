@@ -1246,7 +1246,16 @@ transform: translate(0, 0);
 .modal-agreement-link:focus {
    outline: 1px solid var(--Primary-Brand-IRIS);
 }
+
+
 .modal-label-check{
+    margin-left: 8px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    
+   
+
+
   font-size: 12px; 
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -1254,14 +1263,32 @@ transform: translate(0, 0);
 }
 .modal-fake-checkbox{
   width: 16px;
-  height: 16px;
+  
+    margin-right: 8px;
+           height: 16px;
   border: 1px solid #2e2f42;
   border-radius: 2px;
   display: inline-flex; 
   align-items: center; 
   justify-content: center;
+  
   fill: transparent; 
 }
+.modal-fake-checkbox:hover,
+.modal-fake-checkbox:fokus{
+fill: #FFFFFF;
+  border: none;
+  border-color:#404bbf;
+  background-color: #404bbf;}
 .privacy-policy-link{
   color: #4d5ae5;
 }
+.modal-icon {
+  cursor: pointer;
+}
+.modal-form-check:focus + .modal-label-check .modal-fake-checkbox {
+  border-color:#404bbf;}
+
+.modal-form-check:focus + .modal-fake-checkbox {
+  background: #404bbf;
+  border: 1px solid #404bbf;}
