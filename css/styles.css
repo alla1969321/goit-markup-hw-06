@@ -1261,7 +1261,7 @@ transform: translate(0, 0);
   align-items: center; 
   justify-content: center;
   fill: transparent; 
-
-
-
+}
+.privacy-policy-link{
+  color: #4d5ae5;
 }
