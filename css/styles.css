@@ -1075,7 +1075,11 @@ transform: translate(0, 0);
 .modal-form-input-wrapper {
  /* display: block;*/
   position: relative;
-  /*margin-bottom: 8px;*/
+  margin-bottom: 8px;
+
+}
+.modal-form-input-wrapper-two{
+position: relative;
 
 }
 
@@ -1183,7 +1187,7 @@ transform: translate(0, 0);
  .modal-form-input-icon {
   position: absolute;
     display: block;
-    
+    fill: #2e2f42;
     top: 50%;
     left: 16px;
     transform: translate(0, -50%);
