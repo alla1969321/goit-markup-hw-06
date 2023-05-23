@@ -1145,9 +1145,9 @@ position: relative;
    line-height: 1.17;
    letter-spacing: 0.04em;
    cursor: pointer;
-   color: var(--Text-SLATE);
+  /* color: var(--Text-SLATE);*/
   border-radius: 4px;
-  /*color: rgba(46, 47, 66, 0.4); */
+  color: rgba(46, 47, 66, 0.4); 
     background-color: transparent;
   padding: 8px 16px; 
   outline: transparent; 
@@ -1188,7 +1188,7 @@ position: relative;
   position: absolute;
     display: block;
     fill: #2e2f42;
-    top: 50%;
+       top: 50%;
     left: 16px;
     transform: translate(0, -50%);
     transition: background-color var(--transition);
@@ -1271,8 +1271,8 @@ position: relative;
      font-size: 12px; 
   line-height: 1.17;
   letter-spacing: 0.04em;
- /* color: #8e8f99;*/
- color: var(--Dark-NAVY-BLUE);
+  color: #8e8f99;
+ /*color: var(--Dark-NAVY-BLUE);*/
 }
 .modal-fake-checkbox{
   width: 16px;
